@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color:#202124 !important; 
+}
+
+.flex-container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: calc(100% - 150px);
+    padding: 0
+}
+.endcall{
+    float:right; 
+    display:inline;
+}
+@media  screen and (max-width:415px) {
+    .endcall{
+        display: block;
+        float:none !important;
+        text-align: center;
+    }
+}
+.icondiv{
+    display: inline-block;
+    background-color:  #3C4043;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.containers {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 721px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-send-msg {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons{
+    height:35px  !important;
+    width:35px !important;
+}
+
+.btn-down {
+    background-color:#3c4043 !important;
+    opacity:1.4;
+    text-align: center;
+    z-index: 2;
+    position: fixed; 
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+
+}
+
+.nobrowser{
+    background:white;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    min-width: 400px;
+	text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.mlogo{
+    float:left; 
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.Microsoft{
+    height:30px;
+    width:30px ;
+    float:left;
+}
+
+.usernameMain{
+    margin-top:5%;
+    /* margin-left:4%; */
+}
+.usernameHeading{
+    background: white;
+    height: auto;
+    padding: 4%;
+    padding-top:5%;
+    padding-bottom:5%;
+    /* min-width: 400px; */
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+    border-radius:15px;
+}
+.setUsername{
+    margin: 0;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.main{
+    border-radius: 20px;
+}
+.userButton{
+    margin: 20px !important;
+    border-radius:15px !important;
+}
+
+.displayVideo{
+    margin:auto; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 40px;
+}
+#home-video{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border:4px solid #669df6;
+    margin:10px;
+}
+#my-video{
+    object-fit: fill;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    border:4px solid #669df6;
+    margin:10px; 
+}
+.iconButton{
+    color:whitesmoke !important;
+}
+.off{
+    color:red;
+}
+.modal-body{
+     overflow:auto;
+     overflow-y: auto;
+     height:400px; 
+     text-align:left
+}
+.modal-body-inner{
+    background-color:#F1F3F4;
+    margin:12px;
+    padding:12px; 
+    border-radius:12px
+}
+.messageAlign{
+    text-align: left;
+}
+.mesaage-display{
+     word-break: break-all;
+}
+.send-msg-div{
+    border-radius:30px;
+    background-color:#F1F3F5 ;
+    padding :10px
+}
+.message-input{
+    width:80%
+}
+.send-icon{
+     color:blue !important;
+}
