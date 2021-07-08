@@ -11,6 +11,6 @@ MicroTeams is a video-chatting service which lets colleagues chat over video and
 - Responsiveness
 - Video Preview Screen
 
-### screenshots of website
+### Screenshots of Website
 #### Home Page
-<img src="/images/home.jpeg" />
+<img src="/images/home.jpeg"  style="border-style :solid"/>
