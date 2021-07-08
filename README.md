@@ -11,7 +11,7 @@ MicroTeams is a video-chatting service which lets colleagues chat over video and
 - Responsiveness
 - Video Preview Screen
 
-### Build
+### Getting Started
 To run this application locally , follow the following steps 
 
 1. Clone this repository  
