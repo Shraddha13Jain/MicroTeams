@@ -25,6 +25,7 @@ To run this application locally , follow the following steps
 
 4. run the application   
   `yarn start`
+                        
 
 ### Screenshots of Website
 #### Home Page

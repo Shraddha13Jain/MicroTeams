@@ -28,7 +28,7 @@ import 'antd/dist/antd.css'
 
 import peerConnectionConfig from './iceServers'
 import 'bootstrap/dist/css/bootstrap.css'
-import "./call.css"
+import "./css/call.css"
 import faker from "faker"
 
 const host_url = process.env.NODE_ENV === 'production' ? 'https://microteams13.herokuapp.com/' : "http://localhost:8000"

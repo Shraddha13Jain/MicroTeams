@@ -4,7 +4,7 @@ import { Button} from '@material-ui/core';
 import { Input} from '@material-ui/core';
 import {Carousel} from "react-bootstrap";
 import VideoCallIcon from '@material-ui/icons/VideoCall';
-import "./Home.css"
+import "./css/Home.css"
 
 class Home extends Component {
   	constructor (props) {
