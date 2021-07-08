@@ -1,4 +1,4 @@
-## MicroTeam , A Microsoft Teams clone for Video conferencing
+## MicroTeams , A Microsoft Teams clone for Video conferencing
 MicroTeams is a video-chatting service which lets colleagues chat over video and text.
 
 ### Features
@@ -12,3 +12,5 @@ MicroTeams is a video-chatting service which lets colleagues chat over video and
 - Video Preview Screen
 
 #### screenshots of website
+Home Page
+<img src="/images/home.jpeg" />
