@@ -116,8 +116,6 @@ io.on('connection', (socket) => {
 	socket.on('indicate', (toSocketId, chatMessage) => {
 		io.to(toSocketId).emit('indicate', socket.id, chatMessage)
 	})
-
-
 })
 
  
