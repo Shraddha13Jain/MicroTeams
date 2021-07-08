@@ -229,10 +229,7 @@ class call extends Component {
 		var indicate = JSON.parse(text) 
 	    var sessionDesc=indicate.sdp;
 		var ice=indicate.ice;
-		if(senderId === socketId){ // if receiver and sender are same
-		  return ;
-		}
-		else {
+		if(senderId !== socketId){ // if receiver and sender are not same 
 			if (sessionDesc) {
 				connected[senderId].setRemoteDescription(new RTCSessionDescription(sessionDesc)).then(() => {
 					if(sessionDesc.type ==='offer'){
