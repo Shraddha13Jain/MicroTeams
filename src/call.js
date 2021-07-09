@@ -20,6 +20,8 @@ import StopScreenShareIcon from '@material-ui/icons/StopScreenShare'
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined'
 import FileCopyOutlinedIcon from '@material-ui/icons/FileCopyOutlined'
 
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
+
 import { Row } from 'reactstrap'
 import Modal from 'react-bootstrap/Modal'
 
@@ -602,6 +604,7 @@ class call extends Component {
 							<IconButton  className="iconButton" onClick={this.openInfo}>
 									<InfoOutlinedIcon className="icons" />
 							</IconButton>
+							
 							{/* 415  */}
 						    <div class ="endcall">
 								  
