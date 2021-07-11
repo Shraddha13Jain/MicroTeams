@@ -31,3 +31,15 @@ To run this application locally , follow the following steps
 ### Screenshots of Website
 #### Home Page
 <img src="/images/home.jpeg"/>
+
+#### Video Preview Page
+<img src="/images/videoPreview.jpeg"/>
+
+#### in-call Page
+<img src="/images/inCall.jpeg"/>
+
+#### Chat Interface
+<img src="/images/chat.jpeg"/>
+
+#### Copy Information Interface
+<img src="/images/meetingDetials.jpeg"/>

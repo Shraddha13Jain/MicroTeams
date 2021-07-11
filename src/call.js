@@ -564,6 +564,15 @@ class call extends Component {
 
 						<div class="col-md-5 col-10 displayVideo">
 							<video id="home-video" ref={this.localVideoref} autoPlay muted></video>
+							{/* <div style={{float:"left"}}>
+								<IconButton className="iconButton" onClick={this.handleVideo}>
+										{(this.state.video !== true) ? <VideocamOffIcon className="icons off" /> : <VideocamIcon className="icons" /> }
+								</IconButton>
+								
+								<IconButton  className="iconButton" onClick={this.handleAudio}>
+									{this.state.audio !== true ? <MicOffIcon className="icons off"/>: <MicIcon className="icons"/> }
+								</IconButton>
+							</div> */}
 						</div>
 					</div>
 					</div>
@@ -605,7 +614,6 @@ class call extends Component {
 									<InfoOutlinedIcon className="icons" />
 							</IconButton>
 							
-							{/* 415  */}
 						    <div class ="endcall">
 								  
 									<IconButton style={{color:"red"}} onClick={this.handleEndCall}>
