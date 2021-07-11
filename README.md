@@ -42,4 +42,4 @@ To run this application locally , follow the following steps
 <img src="/images/chat.jpeg"/>
 
 #### Copy Information Interface
-<img src="/images/meetingDetials.jpeg"/>
+<img src="/images/meetingDetails.jpeg"/>
