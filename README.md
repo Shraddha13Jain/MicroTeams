@@ -16,7 +16,7 @@ Click [here](https://www.canva.com/design/DAEjaQyOF20/na4Sh6mHr3PNVd0nffilWA/vie
 To run this application locally , follow the following steps 
 
 1. Clone this repository  
-  ` git clone https://github.com/Shraddha13Jain/MicroTeams `
+  ` git clone https://github.com/Shraddha13Jain/MicroTeams.git `
 
 2. Go into the repository  
    ` cd MicroTeams `
