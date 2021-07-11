@@ -35,7 +35,7 @@ To run this application locally , follow the following steps
 #### Video Preview Page
 <img src="/images/videoPreview.jpeg"/>
 
-#### in-call Page
+#### In-call Page
 <img src="/images/inCall.jpeg"/>
 
 #### Chat Interface
