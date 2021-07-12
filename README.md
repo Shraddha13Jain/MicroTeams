@@ -3,7 +3,8 @@ MicroTeams is a video-chatting service which lets colleagues chat over video and
 Click [here](https://drive.google.com/file/d/1fyj4TytdrLsp3tYdqHz9Rqwjwvzr2RlV/view?usp=sharing) to view the Presentation .  
 
 ### Website
-Try Video Meeting [here](https://microteams13.herokuapp.com/)
+Try Video Meeting by creating your own rooms or joining the existing ones.  
+[Link to the Website](https://microteams13.herokuapp.com/)
 
 ### Features
 - Multiple user connectivity
