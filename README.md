@@ -22,7 +22,7 @@ To run this application locally , follow the following steps
 1. Clone this repository  
   ` git clone https://github.com/Shraddha13Jain/MicroTeams.git `
 
-2. Go into the repository  
+2. Go into the folder  
    ` cd MicroTeams `
 
 3. Download all Dependencies  
