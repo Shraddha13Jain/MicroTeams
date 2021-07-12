@@ -11,13 +11,26 @@ var xss = require("xss")
 var server = http.createServer(app)
 var io = require('socket.io')(server)
 
+const { ExpressPeerServer } = require("peer");
+
+
+app.set('port', (process.env.PORT || 8000)) //server side port
+ 
+
+var port=app.get('port'); // port of the backend server
+const expServer = server.listen(port, () => {
+	console.log(`Server listening on port ${port}`);
+});
+const peerServer = ExpressPeerServer(expServer, {
+	path: "/peer",
+});
+app.use(peerServer);
+
 //requirement process finishes
 app.use(cors())  //for secure cross-origin connections
 app.use(bodyParser.json()) 
 
 
-app.set('port', (process.env.PORT || 8000)) //server side port
- 
 // for deployment purpose
 if(process.env.NODE_ENV==='production'){
 	app.use(express.static(__dirname+"/build"))
@@ -119,7 +132,3 @@ io.on('connection', (socket) => {
 })
 
  
-var port=app.get('port'); // port of the backend server
-server.listen(app.get('port'), () => {
-	console.log(`listening on ${port}`);
-})
