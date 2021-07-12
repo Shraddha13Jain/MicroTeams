@@ -32,6 +32,7 @@ import peerConnectionConfig from './iceServers'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./css/call.css"
 import faker from "faker"
+import ScrollToBottom from 'react-scroll-to-bottom';
 
 const host_url = process.env.NODE_ENV === 'production' ? 'https://microteams13.herokuapp.com/' : "http://localhost:8000"
 
@@ -543,6 +544,12 @@ class call extends Component {
 	// connect to the call function
 	connect = () => this.setState({ PromptUsername: false }, () => this.getAudioVideo())
 
+    // sends the message on pressing enter key
+	handleKeyPress = (event) => {
+		if(event.key === 'Enter'){
+		  this.sendMessage();
+		}
+	  }
 	render() {
 		 return (
 			<div>
@@ -623,7 +630,7 @@ class call extends Component {
 						</div>
 
                          {/* chat modal  */}
-						<Modal show={this.state.showChatModal} onHide={this.closeChat} style={{ zIndex: "999999" }}>
+						<Modal  show={this.state.showChatModal} onHide={this.closeChat} style={{ zIndex: "999999" }}>
 							<Modal.Header closeButton>
 								<Modal.Title>In-call Messages</Modal.Title>
 							</Modal.Header>
@@ -643,10 +650,12 @@ class call extends Component {
 							</Modal.Body>
 							<Modal.Footer className="div-send-msg">
 								<div className="send-msg-div">
-								<Input className="message-input" placeholder="Message" value={this.state.message} onChange={event => this.handleMessage(event)} />
-                               <IconButton className="send-icon" onClick={this.sendMessage}>
-									<SendIcon />
-								</IconButton>
+								<Input className="message-input" placeholder="Message" value={this.state.message} onChange={event => this.handleMessage(event)} 
+								onKeyPress={this.handleKeyPress}
+								/>
+                                    <IconButton className="send-icon" onClick={this.sendMessage} >
+									    <SendIcon />
+								    </IconButton>
                                 </div>
 							</Modal.Footer>
 						</Modal>
