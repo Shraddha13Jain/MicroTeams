@@ -18,6 +18,7 @@ If the above link doesn't work, click [here](https://drive.google.com/file/d/1tI
 - Interactive UI
 - Responsiveness
 - Video Preview Screen
+- New and old messages availability by joining the call again
 
 ### Tech Stack 
 - NodeJs
